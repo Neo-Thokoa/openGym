@@ -1,0 +1,22 @@
+name = "opengym-api"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = false
+
+[vars]
+RP_NAME = "openGym"
+APP_ORIGIN = "https://neothokoa-opengym.vercel.app"
+RP_ID = "neothokoa-opengym.vercel.app"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "opengym-data"
+database_id = "941ba887-299f-465e-a9fd-05db12aee19e"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "opengym-media"

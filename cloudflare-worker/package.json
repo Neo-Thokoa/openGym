@@ -1,0 +1,23 @@
+{
+  "name": "opengym-cloudflare-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "deploy": "wrangler deploy",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@simplewebauthn/server": "^13.2.2"
+  },
+  "devDependencies": {
+    "wrangler": "4.148.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "workerd@1.20261006.1": true
+  },
+  "overrides": {
+    "sharp": "0.35.5"
+  }
+}

@@ -7,6 +7,8 @@ data/
 
 # Local config
 .env
+cloudflare-worker/.dev.vars
+cloudflare-worker/.wrangler/
 
 # Build output / deps
 frontend/dist/
